@@ -40,6 +40,38 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : 10.0,
+					"id" : "obj-328",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1312.0, 1881.0, 80.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 551.75, 92.219512194395065, 80.0, 18.0 ],
+					"text" : "correction curve",
+					"textcolor" : [ 0.987629532814026, 0.278343975543976, 0.278168827295303, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.99 ],
+					"fontsize" : 10.0,
+					"id" : "obj-93",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1315.0, 1867.0, 77.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 554.75, 78.0, 77.0, 18.0 ],
+					"text" : "response curve",
+					"textcolor" : [ 0.0, 0.0, 0.965316712856293, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-325",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -8011,7 +8043,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 202.0, 1268.0, 249.0, 62.0 ],
-					"text" : "19.958333 18.666667 17.354167 16.020833 14.6875 13.333333 12. 10.666667 9.333333 8. 6.6875 5.354167 4.020833 2.6875 1.333333 0."
+					"text" : "19.9375 18.666667 17.333333 16. 14.645833 13.3125 12. 10.666667 9.3125 7.979167 6.645833 5.333333 3.979167 2.666667 1.3125 0."
 				}
 
 			}
