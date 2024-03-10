@@ -40,13 +40,62 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.99 ],
+					"fontsize" : 10.0,
+					"id" : "obj-340",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1377.0, 2245.0, 85.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 1379.0, 2243.0, 77.0, 29.0 ],
+					"text" : "input + correction",
+					"textcolor" : [ 0.290196078431373, 0.72156862745098, 0.007843137254902, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : 10.0,
+					"id" : "obj-332",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1377.0, 2225.0, 52.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1380.0, 2217.0, 80.0, 18.0 ],
+					"text" : "correction",
+					"textcolor" : [ 0.987629532814026, 0.278343975543976, 0.278168827295303, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.99 ],
+					"fontsize" : 10.0,
+					"id" : "obj-339",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1377.0, 2207.0, 30.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1383.0, 2203.0, 77.0, 18.0 ],
+					"text" : "input",
+					"textcolor" : [ 0.0, 0.0, 0.965316712856293, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : 10.0,
 					"id" : "obj-328",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1312.0, 1881.0, 80.0, 18.0 ],
+					"patching_rect" : [ 1392.5, 1889.0, 80.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 551.75, 92.219512194395065, 80.0, 18.0 ],
 					"text" : "correction curve",
@@ -62,7 +111,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1315.0, 1867.0, 77.0, 18.0 ],
+					"patching_rect" : [ 1394.0, 1869.0, 77.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 554.75, 78.0, 77.0, 18.0 ],
 					"text" : "response curve",
@@ -1747,7 +1796,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 348.0, 497.0, 640.0, 480.0 ],
+						"rect" : [ 90.0, 449.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1775,6 +1824,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-7",
@@ -1906,7 +1956,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 316.0, 246.0, 23.0 ],
-									"text" : "set $2, set $1 2, set correction_preview 3"
+									"text" : "set $1, set $2 2, set correction_preview 3"
 								}
 
 							}
