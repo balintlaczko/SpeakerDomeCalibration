@@ -13,6 +13,18 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-842",
+                    "maxclass": "live.scope~",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "patching_rect": [ 2672.5, 824.0, 12.0, 108.5 ],
+                    "range": [ 0.0, 1.0 ],
+                    "samples": 100.0
+                }
+            },
+            {
+                "box": {
                     "id": "obj-841",
                     "maxclass": "message",
                     "numinlets": 2,
@@ -1872,7 +1884,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
                     "patching_rect": [ 2671.0, 1128.0, 280.0, 22.0 ],
-                    "restore": [ 24 ],
+                    "restore": [ 8 ],
                     "saved_object_attributes": {
                         "parameter_enable": 0,
                         "parameter_mappable": 0
@@ -1951,7 +1963,7 @@
                                     "numoutlets": 3,
                                     "outlettype": [ "", "", "" ],
                                     "patching_rect": [ 144.0, 1575.0, 320.0, 22.0 ],
-                                    "restore": [ 24 ],
+                                    "restore": [ 8 ],
                                     "saved_object_attributes": {
                                         "parameter_enable": 0,
                                         "parameter_mappable": 0
@@ -2470,7 +2482,8 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 50.0, 669.0, 50.0, 22.0 ]
+                                    "patching_rect": [ 50.0, 669.0, 50.0, 22.0 ],
+                                    "text": "12008"
                                 }
                             },
                             {
@@ -7095,8 +7108,8 @@
                     "id": "obj-242",
                     "maxclass": "newobj",
                     "numinlets": 2,
-                    "numoutlets": 2,
-                    "outlettype": [ "signal", "signal" ],
+                    "numoutlets": 3,
+                    "outlettype": [ "signal", "signal", "signal" ],
                     "patcher": {
                         "fileversion": 1,
                         "appversion": {
@@ -7111,11 +7124,21 @@
                         "boxes": [
                             {
                                 "box": {
+                                    "id": "obj-2",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 554.0, 415.0, 35.0, 22.0 ],
+                                    "text": "out 3"
+                                }
+                            },
+                            {
+                                "box": {
                                     "id": "obj-7",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 554.0, 419.0, 35.0, 22.0 ],
+                                    "patching_rect": [ 302.0, 415.0, 35.0, 22.0 ],
                                     "text": "out 2"
                                 }
                             },
@@ -7132,15 +7155,15 @@
                             },
                             {
                                 "box": {
-                                    "code": "History count(0), incr(0), outval(0);\r\n\r\nParam limit(1);\r\n\r\nif (change(in1) > 0) {\r\n    count = 0;\r\n    incr = 1;\r\n}\r\n\r\nif (change(in2) > 0) {\r\n    count = 0;\r\n    incr = 0;\r\n}\r\n\r\noutval = min(count, limit);\r\ncount += incr;\r\nhit_limit = count >= limit;\r\n\r\nout1 = outval;\r\nout2 = hit_limit;",
+                                    "code": "History count(0), incr(0), outval(0);\r\n\r\nParam limit(1);\r\n\r\nif (change(in1) > 0) {\r\n    count = 0;\r\n    incr = 1;\r\n}\r\n\r\nif (change(in2) > 0) {\r\n    count = 0;\r\n    incr = 0;\r\n}\r\n\r\noutval = min(count, limit);\r\ncount += incr;\r\nhit_limit = count >= limit;\r\n\r\nout1 = outval;\r\nout2 = outval / limit;\r\nout3 = hit_limit;\r\n",
                                     "fontface": 0,
                                     "fontname": "<Monospaced>",
                                     "fontsize": 12.0,
                                     "id": "obj-5",
                                     "maxclass": "codebox",
                                     "numinlets": 2,
-                                    "numoutlets": 2,
-                                    "outlettype": [ "", "" ],
+                                    "numoutlets": 3,
+                                    "outlettype": [ "", "", "" ],
                                     "patching_rect": [ 50.0, 56.0, 523.0, 342.0 ]
                                 }
                             },
@@ -7171,6 +7194,12 @@
                                 "patchline": {
                                     "destination": [ "obj-5", 0 ],
                                     "source": [ "obj-1", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-2", 0 ],
+                                    "source": [ "obj-5", 2 ]
                                 }
                             },
                             {
@@ -7455,7 +7484,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 271.3333414196968, 484.00001442432404, 468.0, 22.0 ],
-                    "text": "include_scale_factor_toggle 1."
+                    "text": "sweep_gain -1."
                 }
             },
             {
@@ -8508,7 +8537,7 @@
                     "numoutlets": 4,
                     "outlettype": [ "signal", "", "float", "list" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 2504.5, 871.0, 48.0, 136.0 ],
+                    "patching_rect": [ 2504.5, 872.0, 48.0, 136.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_linknames": 1,
@@ -12039,7 +12068,7 @@
                         "mic_gain": [ 0.0 ],
                         "soundcheck": [ 0.0 ],
                         "speakers": [ -25.514018691588785 ],
-                        "sweep_countdown_s": [ 30 ],
+                        "sweep_countdown_s": [ 1 ],
                         "sweep_duration_s": [ 10.0 ],
                         "sweep_fadein_ms": [ 50.0 ],
                         "sweep_fadeout_ms": [ 10.0 ],
@@ -22484,6 +22513,12 @@
             {
                 "patchline": {
                     "destination": [ "obj-296", 0 ],
+                    "source": [ "obj-242", 2 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-842", 0 ],
                     "source": [ "obj-242", 1 ]
                 }
             },
