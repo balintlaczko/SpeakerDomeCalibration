@@ -13,6 +13,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-1127",
+                    "linecount": 2,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1697.0, 275.5, 64.0, 33.0 ],
+                    "text": "Speaker:\n(0 = mute)"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-1125",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -3057,12 +3068,12 @@
                 "box": {
                     "fontface": 1,
                     "fontname": "Lato Regular",
-                    "fontsize": 36.0,
+                    "fontsize": 24.0,
                     "id": "obj-516",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 2469.5, 16.0, 148.0, 50.0 ],
+                    "patching_rect": [ 2469.5, 16.0, 101.0, 35.0 ],
                     "text": "Measure",
                     "textjustification": 1
                 }
@@ -3664,7 +3675,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 2626.0, 226.0, 61.0, 22.0 ]
+                    "patching_rect": [ 2564.0, 211.0, 61.0, 22.0 ]
                 }
             },
             {
@@ -4829,12 +4840,12 @@
                 "box": {
                     "fontface": 1,
                     "fontname": "Lato Regular",
-                    "fontsize": 36.0,
+                    "fontsize": 24.0,
                     "id": "obj-183",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 195.0, 4862.0, 304.0, 50.0 ],
+                    "patching_rect": [ 195.0, 4862.0, 206.0, 35.0 ],
                     "text": "Align Time (apply)",
                     "textjustification": 1
                 }
@@ -7595,13 +7606,13 @@
                 "box": {
                     "fontface": 1,
                     "fontname": "Lato Regular",
-                    "fontsize": 36.0,
+                    "fontsize": 24.0,
                     "id": "obj-51",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 141.0, 5146.0, 255.0, 50.0 ],
-                    "presentation_linecount": 3,
+                    "patching_rect": [ 141.0, 5146.0, 173.0, 35.0 ],
+                    "presentation_linecount": 2,
                     "text": "Gain Alignment"
                 }
             },
@@ -7854,12 +7865,12 @@
                 "box": {
                     "fontface": 1,
                     "fontname": "Lato Regular",
-                    "fontsize": 36.0,
+                    "fontsize": 24.0,
                     "id": "obj-233",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1763.0, 119.0, 203.0, 50.0 ],
+                    "patching_rect": [ 1763.0, 119.0, 138.0, 35.0 ],
                     "text": "Soundcheck",
                     "textjustification": 1
                 }
@@ -9131,7 +9142,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 271.3333414196968, 484.00001442432404, 468.0, 22.0 ],
-                    "text": "invert_fadein_from_hz 49.8"
+                    "text": "wf_col_0_group 0"
                 }
             },
             {
@@ -9337,7 +9348,7 @@
                             "parameter_mmax": 6.0,
                             "parameter_mmin": -70.0,
                             "parameter_modmode": 3,
-                            "parameter_shortname": "soundcheck_level",
+                            "parameter_shortname": "Soundcheck",
                             "parameter_type": 0,
                             "parameter_unitstyle": 4
                         }
@@ -10360,12 +10371,12 @@
                 "box": {
                     "fontface": 1,
                     "fontname": "Lato Regular",
-                    "fontsize": 36.0,
+                    "fontsize": 24.0,
                     "id": "obj-447",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 39.75, 960.0, 359.0, 50.0 ],
+                    "patching_rect": [ 39.75, 960.0, 242.0, 35.0 ],
                     "text": "Group Norm (in place)",
                     "textjustification": 1
                 }
@@ -10379,7 +10390,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 2523.0, 226.0, 83.0, 36.0 ],
+                    "patching_rect": [ 2523.0, 256.0, 83.0, 36.0 ],
                     "varname": "sweep_current_channel"
                 }
             },
@@ -11053,12 +11064,12 @@
                 "box": {
                     "fontface": 1,
                     "fontname": "Lato Regular",
-                    "fontsize": 36.0,
+                    "fontsize": 24.0,
                     "id": "obj-221",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 417.0, 3892.0, 310.0, 50.0 ],
+                    "patching_rect": [ 417.0, 3892.0, 210.0, 35.0 ],
                     "text": "Preview correction",
                     "textjustification": 1
                 }
@@ -11095,12 +11106,12 @@
                 "box": {
                     "fontface": 1,
                     "fontname": "Lato Regular",
-                    "fontsize": 36.0,
+                    "fontsize": 24.0,
                     "id": "obj-217",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 117.0, 3760.0, 133.0, 50.0 ],
+                    "patching_rect": [ 117.0, 3760.0, 91.0, 35.0 ],
                     "text": "Smooth"
                 }
             },
@@ -11376,12 +11387,12 @@
                 "box": {
                     "fontface": 1,
                     "fontname": "Lato Regular",
-                    "fontsize": 36.0,
+                    "fontsize": 24.0,
                     "id": "obj-188",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 174.0, 2344.0, 479.0, 50.0 ],
+                    "patching_rect": [ 174.0, 2344.0, 322.0, 35.0 ],
                     "text": "Apply microphone calibration",
                     "textjustification": 1
                 }
@@ -19577,12 +19588,12 @@
                 "box": {
                     "fontface": 1,
                     "fontname": "Lato Regular",
-                    "fontsize": 36.0,
+                    "fontsize": 24.0,
                     "id": "obj-53",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 911.0, 267.0, 347.0, 50.0 ],
+                    "patching_rect": [ 911.0, 267.0, 235.0, 35.0 ],
                     "text": "Export recorded IRs",
                     "textjustification": 1
                 }
@@ -20757,12 +20768,12 @@
                 "box": {
                     "fontface": 1,
                     "fontname": "Lato Regular",
-                    "fontsize": 36.0,
+                    "fontsize": 24.0,
                     "id": "obj-91",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1036.0, 5745.0, 347.0, 50.0 ],
+                    "patching_rect": [ 1036.0, 5745.0, 234.0, 35.0 ],
                     "text": "Export correction IRs",
                     "textjustification": 1
                 }
@@ -20881,13 +20892,13 @@
                 "box": {
                     "fontface": 1,
                     "fontname": "Lato Regular",
-                    "fontsize": 36.0,
+                    "fontsize": 24.0,
                     "id": "obj-406",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 80.0, 5679.0, 262.0, 50.0 ],
-                    "text": "Audition results",
+                    "patching_rect": [ 80.0, 5679.0, 100.0, 35.0 ],
+                    "text": "Audition",
                     "textjustification": 1
                 }
             },
@@ -20895,12 +20906,12 @@
                 "box": {
                     "fontface": 1,
                     "fontname": "Lato Regular",
-                    "fontsize": 36.0,
+                    "fontsize": 24.0,
                     "id": "obj-404",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 51.0, 1966.0, 342.0, 50.0 ],
+                    "patching_rect": [ 51.0, 1966.0, 231.0, 35.0 ],
                     "text": "Align Time (measure)",
                     "textjustification": 1
                 }
@@ -21895,12 +21906,12 @@
                 "box": {
                     "fontface": 1,
                     "fontname": "Lato Regular",
-                    "fontsize": 36.0,
+                    "fontsize": 24.0,
                     "id": "obj-59",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 33.0, 267.0, 250.0, 50.0 ],
+                    "patching_rect": [ 30.0, 288.0, 169.0, 35.0 ],
                     "text": "Sweep settings",
                     "textjustification": 1
                 }
@@ -23723,12 +23734,12 @@
                 "box": {
                     "fontface": 1,
                     "fontname": "Lato Regular",
-                    "fontsize": 36.0,
+                    "fontsize": 24.0,
                     "id": "obj-57",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 87.0, 2895.0, 103.0, 50.0 ],
+                    "patching_rect": [ 87.0, 2895.0, 72.0, 35.0 ],
                     "text": "Invert"
                 }
             },
@@ -23736,12 +23747,12 @@
                 "box": {
                     "fontface": 1,
                     "fontname": "Lato Regular",
-                    "fontsize": 36.0,
+                    "fontsize": 24.0,
                     "id": "obj-330",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 141.0, 5024.0, 148.0, 50.0 ],
+                    "patching_rect": [ 141.0, 5024.0, 102.0, 35.0 ],
                     "text": "Truncate"
                 }
             },
@@ -23749,12 +23760,12 @@
                 "box": {
                     "fontface": 1,
                     "fontname": "Lato Regular",
-                    "fontsize": 36.0,
+                    "fontsize": 24.0,
                     "id": "obj-331",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 162.0, 2607.0, 86.0, 50.0 ],
+                    "patching_rect": [ 162.0, 2607.0, 60.0, 35.0 ],
                     "text": "Crop"
                 }
             },
@@ -23762,12 +23773,12 @@
                 "box": {
                     "fontface": 1,
                     "fontname": "Lato Regular",
-                    "fontsize": 36.0,
+                    "fontsize": 24.0,
                     "id": "obj-333",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 145.0, 4254.0, 266.0, 50.0 ],
+                    "patching_rect": [ 145.0, 4254.0, 180.0, 35.0 ],
                     "text": "Minimum Phase"
                 }
             },
@@ -23775,12 +23786,12 @@
                 "box": {
                     "fontface": 1,
                     "fontname": "Lato Regular",
-                    "fontsize": 36.0,
+                    "fontsize": 24.0,
                     "id": "obj-334",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 101.0, 4528.0, 201.0, 50.0 ],
+                    "patching_rect": [ 101.0, 4528.0, 137.0, 35.0 ],
                     "text": "Inverted IRs",
                     "textjustification": 1
                 }
@@ -26300,7 +26311,7 @@
             "obj-416": [ "invert_strength_db", "invert_strength_db", 0 ],
             "obj-431": [ "audition_pink_level", "audition_pink_level", 0 ],
             "obj-456": [ "audition_loopback_in_level", "audition_loopback_in_level", 0 ],
-            "obj-494": [ "soundcheck_level", "soundcheck_level", 0 ],
+            "obj-494": [ "soundcheck_level", "Soundcheck", 0 ],
             "obj-505": [ "sweep_gain", "sweep_gain", 0 ],
             "obj-784": [ "mic_calibration_toggle", "mic_calibration_toggle", 0 ],
             "obj-8": [ "sweep_fadein_ms", "sweep_fadein_ms", 0 ],
