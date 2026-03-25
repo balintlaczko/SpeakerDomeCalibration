@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 448.0, 84.0, 940.0, 980.0 ],
+        "rect": [ 270.0, 90.0, 940.0, 980.0 ],
         "openrect": [ 0.0, 0.0, 940.0, 980.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
@@ -18,6 +18,7 @@
         "enablehscroll": 0,
         "enablevscroll": 0,
         "integercoordinates": 1,
+        "title": "Speaker Dome Calibration",
         "boxes": [
             {
                 "box": {
