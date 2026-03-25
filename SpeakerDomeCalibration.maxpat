@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 448.0, 87.0, 940.0, 980.0 ],
+        "rect": [ 448.0, 84.0, 940.0, 980.0 ],
         "openrect": [ 0.0, 0.0, 940.0, 980.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
@@ -17270,8 +17270,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 347.3333436846733, 372.0000110864639, 167.0, 20.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 20.0, 320.0, 167.0, 20.0 ],
                     "text": "SR is fixed at 48000 (for now)"
                 }
             },
