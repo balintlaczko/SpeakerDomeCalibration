@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 270.0, 90.0, 940.0, 980.0 ],
+        "rect": [ 307.0, 91.0, 940.0, 980.0 ],
         "openrect": [ 0.0, 0.0, 940.0, 980.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
@@ -17942,7 +17942,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 271.3333414196968, 484.00001442432404, 468.0, 22.0 ],
-                    "text": "measure_toggle_conv 1"
+                    "text": "measure_input_channel 1"
                 }
             },
             {
@@ -29481,7 +29481,7 @@
             },
             {
                 "box": {
-                    "clipheight": 32.5,
+                    "clipheight": 40.0,
                     "data": {
                         "clips": [
                             {
