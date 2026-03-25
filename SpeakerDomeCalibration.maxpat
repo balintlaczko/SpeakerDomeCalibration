@@ -9,9 +9,10 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 307.0, 91.0, 940.0, 980.0 ],
+        "rect": [ 287.0, 91.0, 940.0, 980.0 ],
         "openrect": [ 0.0, 0.0, 940.0, 980.0 ],
         "openrectmode": 0,
+        "bglocked": 1,
         "openinpresentation": 1,
         "gridsize": [ 20.0, 20.0 ],
         "toolbarvisible": 0,
@@ -1496,24 +1497,6 @@
                     "presentation": 1,
                     "presentation_rect": [ 760.0, 20.0, 140.0, 40.0 ],
                     "text": "Process"
-                }
-            },
-            {
-                "box": {
-                    "angle": 270.0,
-                    "border": 1,
-                    "grad1": [ 0.88618143642005, 0.886181230263799, 0.886181284135721, 0.0 ],
-                    "grad2": [ 0.88618143642005, 0.886181230263799, 0.886181284135721, 0.0 ],
-                    "id": "obj-1239",
-                    "maxclass": "panel",
-                    "mode": 1,
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 1215.0, 115.0, 128.0, 128.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 740.0, 0.0, 200.0, 720.0 ],
-                    "proportion": 0.5,
-                    "rounded": 0
                 }
             },
             {
@@ -4033,7 +4016,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 160.0, 5280.0, 160.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 760.0, 681.0, 160.0, 20.0 ],
+                    "presentation_rect": [ 760.0, 680.0, 160.0, 20.0 ],
                     "text": "Get gain alignment",
                     "texton": "Get gain alignment"
                 }
@@ -4153,7 +4136,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 340.0, 2479.0, 80.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 760.0, 241.0, 80.0, 20.0 ],
+                    "presentation_rect": [ 760.0, 240.0, 80.0, 20.0 ],
                     "text": "Load txt",
                     "texton": "Load txt"
                 }
@@ -4254,7 +4237,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 1046.0, 5238.0, 160.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 760.0, 861.0, 160.0, 20.0 ],
+                    "presentation_rect": [ 760.0, 860.0, 160.0, 20.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -17942,7 +17925,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 271.3333414196968, 484.00001442432404, 468.0, 22.0 ],
-                    "text": "measure_input_channel 1"
+                    "text": "measure_toggle_conv 0"
                 }
             },
             {
@@ -21147,7 +21130,7 @@
                         "measure_input_channel": [ 1 ],
                         "measure_input_channel[1]": [ 1 ],
                         "measure_mic_gain": [ 0.0 ],
-                        "measure_toggle_conv": [ 1 ],
+                        "measure_toggle_conv": [ 0 ],
                         "smoothing_factor": [ 0.02 ],
                         "soundcheck_level": [ -36.0 ],
                         "sweep_countdown_s": [ 10 ],
@@ -31672,24 +31655,6 @@
             },
             {
                 "box": {
-                    "angle": 270.0,
-                    "border": 1,
-                    "grad1": [ 0.88618143642005, 0.886181230263799, 0.886181284135721, 0.0 ],
-                    "grad2": [ 0.88618143642005, 0.886181230263799, 0.886181284135721, 0.0 ],
-                    "id": "obj-1210",
-                    "maxclass": "panel",
-                    "mode": 1,
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 1140.0, 40.0, 128.0, 128.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 0.0, 80.0, 740.0, 180.0 ],
-                    "proportion": 0.5,
-                    "rounded": 0
-                }
-            },
-            {
-                "box": {
                     "id": "obj-425",
                     "maxclass": "textbutton",
                     "numinlets": 1,
@@ -31701,24 +31666,6 @@
                     "presentation_rect": [ 560.0, 340.0, 160.0, 20.0 ],
                     "text": "Generate sweep",
                     "texton": "Generate sweep"
-                }
-            },
-            {
-                "box": {
-                    "angle": 270.0,
-                    "border": 1,
-                    "grad1": [ 0.88618143642005, 0.886181230263799, 0.886181284135721, 0.0 ],
-                    "grad2": [ 0.88618143642005, 0.886181230263799, 0.886181284135721, 0.0 ],
-                    "id": "obj-1212",
-                    "maxclass": "panel",
-                    "mode": 1,
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 1180.0, 80.0, 128.0, 128.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 0.0, 260.0, 740.0, 120.0 ],
-                    "proportion": 0.5,
-                    "rounded": 0
                 }
             },
             {
@@ -31754,6 +31701,45 @@
             {
                 "box": {
                     "angle": 270.0,
+                    "background": 1,
+                    "border": 1,
+                    "grad1": [ 0.88618143642005, 0.886181230263799, 0.886181284135721, 0.0 ],
+                    "grad2": [ 0.88618143642005, 0.886181230263799, 0.886181284135721, 0.0 ],
+                    "id": "obj-1210",
+                    "maxclass": "panel",
+                    "mode": 1,
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1140.0, 40.0, 128.0, 128.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 80.0, 740.0, 180.0 ],
+                    "proportion": 0.5,
+                    "rounded": 0
+                }
+            },
+            {
+                "box": {
+                    "angle": 270.0,
+                    "background": 1,
+                    "border": 1,
+                    "grad1": [ 0.88618143642005, 0.886181230263799, 0.886181284135721, 0.0 ],
+                    "grad2": [ 0.88618143642005, 0.886181230263799, 0.886181284135721, 0.0 ],
+                    "id": "obj-1212",
+                    "maxclass": "panel",
+                    "mode": 1,
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1180.0, 80.0, 128.0, 128.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 260.0, 740.0, 120.0 ],
+                    "proportion": 0.5,
+                    "rounded": 0
+                }
+            },
+            {
+                "box": {
+                    "angle": 270.0,
+                    "background": 1,
                     "border": 1,
                     "grad1": [ 0.88618143642005, 0.886181230263799, 0.886181284135721, 0.0 ],
                     "grad2": [ 0.88618143642005, 0.886181230263799, 0.886181284135721, 0.0 ],
@@ -31772,6 +31758,7 @@
             {
                 "box": {
                     "angle": 270.0,
+                    "background": 1,
                     "border": 1,
                     "grad1": [ 0.88618143642005, 0.886181230263799, 0.886181284135721, 0.0 ],
                     "grad2": [ 0.88618143642005, 0.886181230263799, 0.886181284135721, 0.0 ],
@@ -31790,6 +31777,7 @@
             {
                 "box": {
                     "angle": 270.0,
+                    "background": 1,
                     "border": 1,
                     "grad1": [ 0.88618143642005, 0.886181230263799, 0.886181284135721, 0.0 ],
                     "grad2": [ 0.88618143642005, 0.886181230263799, 0.886181284135721, 0.0 ],
@@ -31808,6 +31796,7 @@
             {
                 "box": {
                     "angle": 270.0,
+                    "background": 1,
                     "border": 1,
                     "grad1": [ 0.88618143642005, 0.886181230263799, 0.886181284135721, 0.0 ],
                     "grad2": [ 0.88618143642005, 0.886181230263799, 0.886181284135721, 0.0 ],
@@ -31819,6 +31808,25 @@
                     "patching_rect": [ 1230.0, 130.0, 128.0, 128.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 740.0, 720.0, 200.0, 260.0 ],
+                    "proportion": 0.5,
+                    "rounded": 0
+                }
+            },
+            {
+                "box": {
+                    "angle": 270.0,
+                    "background": 1,
+                    "border": 1,
+                    "grad1": [ 0.88618143642005, 0.886181230263799, 0.886181284135721, 0.0 ],
+                    "grad2": [ 0.88618143642005, 0.886181230263799, 0.886181284135721, 0.0 ],
+                    "id": "obj-1239",
+                    "maxclass": "panel",
+                    "mode": 1,
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1215.0, 115.0, 128.0, 128.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 740.0, 0.0, 200.0, 720.0 ],
                     "proportion": 0.5,
                     "rounded": 0
                 }
