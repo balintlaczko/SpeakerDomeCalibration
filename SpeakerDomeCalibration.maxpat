@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 456.0, 88.0, 940.0, 980.0 ],
+        "rect": [ 448.0, 87.0, 940.0, 980.0 ],
         "openrect": [ 0.0, 0.0, 940.0, 980.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
@@ -1672,7 +1672,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 96.0, -937.0, 1400.0, 560.0 ],
+                        "rect": [ 193.0, 456.0, 1400.0, 560.0 ],
                         "openrect": [ 0.0, 0.0, 1400.0, 560.0 ],
                         "openrectmode": 0,
                         "openinpresentation": 1,
