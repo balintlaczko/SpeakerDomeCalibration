@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 456.0, 91.0, 945.0, 983.0 ],
+        "rect": [ 456.0, 88.0, 940.0, 980.0 ],
         "openrect": [ 0.0, 0.0, 940.0, 980.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
@@ -1494,8 +1494,7 @@
                     "patching_rect": [ 40.0, 900.0, 125.0, 40.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 760.0, 20.0, 140.0, 40.0 ],
-                    "text": "Process",
-                    "textjustification": 0
+                    "text": "Process"
                 }
             },
             {
@@ -1673,7 +1672,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 96.0, -937.0, 1418.0, 577.0 ],
+                        "rect": [ 96.0, -937.0, 1400.0, 560.0 ],
                         "openrect": [ 0.0, 0.0, 1400.0, 560.0 ],
                         "openrectmode": 0,
                         "openinpresentation": 1,
@@ -2663,7 +2662,7 @@
                             {
                                 "box": {
                                     "allowdrag": 0,
-                                    "buffername": "ir.2",
+                                    "buffername": "ir.0",
                                     "grid": 200.0,
                                     "id": "obj-112",
                                     "ignoreclick": 1,
@@ -2679,7 +2678,7 @@
                             {
                                 "box": {
                                     "allowdrag": 0,
-                                    "buffername": "ir.1",
+                                    "buffername": "ir.0",
                                     "grid": 200.0,
                                     "id": "obj-120",
                                     "ignoreclick": 1,
@@ -2695,7 +2694,7 @@
                             {
                                 "box": {
                                     "allowdrag": 0,
-                                    "buffername": "inverted.2",
+                                    "buffername": "inverted.0",
                                     "grid": 200.0,
                                     "id": "obj-140",
                                     "ignoreclick": 1,
@@ -2711,7 +2710,7 @@
                             {
                                 "box": {
                                     "allowdrag": 0,
-                                    "buffername": "inverted.1",
+                                    "buffername": "inverted.0",
                                     "grid": 200.0,
                                     "id": "obj-141",
                                     "ignoreclick": 1,
@@ -2989,8 +2988,7 @@
                                     "patching_rect": [ 220.0, 650.0, 180.0, 40.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 720.0, 280.0, 180.0, 40.0 ],
-                                    "text": "Inverted IRs",
-                                    "textjustification": 0
+                                    "text": "Inverted IRs"
                                 }
                             },
                             {
@@ -3010,7 +3008,7 @@
                                     "numinlets": 4,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 221.0, 701.0, 660.0, 176.0 ],
+                                    "patching_rect": [ 220.0, 713.0, 660.0, 176.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 720.0, 360.0, 660.0, 180.0 ],
                                     "textcolor": [ 0.25, 0.25, 0.25, 1.0 ],
@@ -3671,8 +3669,7 @@
                                     "patching_rect": [ 479.0, 97.0, 277.0, 40.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 20.0, 280.0, 280.0, 40.0 ],
-                                    "text": "Preview correction",
-                                    "textjustification": 0
+                                    "text": "Preview correction"
                                 }
                             },
                             {
@@ -3688,150 +3685,6 @@
                                     "patching_rect": [ 483.0, 25.0, 302.5, 22.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 1080.0, 300.0, 303.0, 22.0 ]
-                                }
-                            },
-                            {
-                                "box": {
-                                    "ampgrid": 5,
-                                    "amprange": [ -30.0, 15.0 ],
-                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.0 ],
-                                    "color": [ 1.0, 0.0, 0.0, 1.0 ],
-                                    "color2": [ 0.0, 1.0, 0.0, 1.0 ],
-                                    "color3": [ 0.0, 0.0, 1.0, 1.0 ],
-                                    "fontface": 0,
-                                    "fontname": "Arial",
-                                    "fontsize": 12.0,
-                                    "freqrange": [ 30.0, 24000.0 ],
-                                    "id": "obj-15",
-                                    "maxclass": "spectrumdraw~",
-                                    "numinlets": 4,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 221.0, 701.0, 660.0, 176.0 ],
-                                    "presentation": 1,
-                                    "presentation_rect": [ 720.0, 360.0, 660.0, 180.0 ],
-                                    "textcolor": [ 0.25, 0.25, 0.25, 1.0 ],
-                                    "varname": "gen_spectrumdraw_0"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "ampgrid": 5,
-                                    "amprange": [ -30.0, 15.0 ],
-                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.0 ],
-                                    "color": [ 1.0, 0.0, 0.0, 1.0 ],
-                                    "color2": [ 0.0, 1.0, 0.0, 1.0 ],
-                                    "color3": [ 0.0, 0.0, 1.0, 1.0 ],
-                                    "fontface": 0,
-                                    "fontname": "Arial",
-                                    "fontsize": 12.0,
-                                    "freqrange": [ 30.0, 24000.0 ],
-                                    "id": "obj-17",
-                                    "maxclass": "spectrumdraw~",
-                                    "numinlets": 4,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 221.0, 701.0, 660.0, 176.0 ],
-                                    "presentation": 1,
-                                    "presentation_rect": [ 720.0, 360.0, 660.0, 180.0 ],
-                                    "textcolor": [ 0.25, 0.25, 0.25, 1.0 ],
-                                    "varname": "gen_spectrumdraw_1"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "ampgrid": 5,
-                                    "amprange": [ -30.0, 15.0 ],
-                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.0 ],
-                                    "color": [ 1.0, 0.0, 0.0, 1.0 ],
-                                    "color2": [ 0.0, 1.0, 0.0, 1.0 ],
-                                    "color3": [ 0.0, 0.0, 1.0, 1.0 ],
-                                    "fontface": 0,
-                                    "fontname": "Arial",
-                                    "fontsize": 12.0,
-                                    "freqrange": [ 30.0, 24000.0 ],
-                                    "id": "obj-19",
-                                    "maxclass": "spectrumdraw~",
-                                    "numinlets": 4,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 221.0, 701.0, 660.0, 176.0 ],
-                                    "presentation": 1,
-                                    "presentation_rect": [ 720.0, 360.0, 660.0, 180.0 ],
-                                    "textcolor": [ 0.25, 0.25, 0.25, 1.0 ],
-                                    "varname": "gen_spectrumdraw_2"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "ampgrid": 5,
-                                    "amprange": [ -30.0, 15.0 ],
-                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.0 ],
-                                    "color": [ 1.0, 0.0, 0.0, 1.0 ],
-                                    "color2": [ 0.0, 1.0, 0.0, 1.0 ],
-                                    "color3": [ 0.0, 0.0, 1.0, 1.0 ],
-                                    "fontface": 0,
-                                    "fontname": "Arial",
-                                    "fontsize": 12.0,
-                                    "freqrange": [ 30.0, 24000.0 ],
-                                    "id": "obj-21",
-                                    "maxclass": "spectrumdraw~",
-                                    "numinlets": 4,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 221.0, 701.0, 660.0, 176.0 ],
-                                    "presentation": 1,
-                                    "presentation_rect": [ 720.0, 360.0, 660.0, 180.0 ],
-                                    "textcolor": [ 0.25, 0.25, 0.25, 1.0 ],
-                                    "varname": "gen_spectrumdraw_3"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "ampgrid": 5,
-                                    "amprange": [ -30.0, 15.0 ],
-                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.0 ],
-                                    "color": [ 1.0, 0.0, 0.0, 1.0 ],
-                                    "color2": [ 0.0, 1.0, 0.0, 1.0 ],
-                                    "color3": [ 0.0, 0.0, 1.0, 1.0 ],
-                                    "fontface": 0,
-                                    "fontname": "Arial",
-                                    "fontsize": 12.0,
-                                    "freqrange": [ 30.0, 24000.0 ],
-                                    "id": "obj-23",
-                                    "maxclass": "spectrumdraw~",
-                                    "numinlets": 4,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 221.0, 701.0, 660.0, 176.0 ],
-                                    "presentation": 1,
-                                    "presentation_rect": [ 720.0, 360.0, 660.0, 180.0 ],
-                                    "textcolor": [ 0.25, 0.25, 0.25, 1.0 ],
-                                    "varname": "gen_spectrumdraw_4"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "ampgrid": 5,
-                                    "amprange": [ -30.0, 15.0 ],
-                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.0 ],
-                                    "color": [ 1.0, 0.0, 0.0, 1.0 ],
-                                    "color2": [ 0.0, 1.0, 0.0, 1.0 ],
-                                    "color3": [ 0.0, 0.0, 1.0, 1.0 ],
-                                    "fontface": 0,
-                                    "fontname": "Arial",
-                                    "fontsize": 12.0,
-                                    "freqrange": [ 30.0, 24000.0 ],
-                                    "id": "obj-25",
-                                    "maxclass": "spectrumdraw~",
-                                    "numinlets": 4,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 221.0, 701.0, 660.0, 176.0 ],
-                                    "presentation": 1,
-                                    "presentation_rect": [ 720.0, 360.0, 660.0, 180.0 ],
-                                    "textcolor": [ 0.25, 0.25, 0.25, 1.0 ],
-                                    "varname": "gen_spectrumdraw_5"
                                 }
                             }
                         ],
@@ -4672,8 +4525,7 @@
                     "patching_rect": [ 30.0, 24.0, 92.0, 40.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 20.0, 20.0, 100.0, 40.0 ],
-                    "text": "Setup",
-                    "textjustification": 0
+                    "text": "Setup"
                 }
             },
             {
@@ -4798,8 +4650,7 @@
                     "patching_rect": [ 1600.0, 1480.0, 74.0, 40.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 760.0, 740.0, 80.0, 40.0 ],
-                    "text": "Data",
-                    "textjustification": 0
+                    "text": "Data"
                 }
             },
             {
@@ -4855,7 +4706,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 708.0, 293.0, 773.0, 495.0 ],
+                        "rect": [ 708.0, 293.0, 780.0, 500.0 ],
                         "openrect": [ 0.0, 0.0, 780.0, 500.0 ],
                         "openrectmode": 0,
                         "openinpresentation": 1,
@@ -4983,7 +4834,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 57.0, 115.0, 387.0, 511.0 ],
+                        "rect": [ 61.0, 87.0, 380.0, 500.0 ],
                         "openrect": [ 0.0, 0.0, 380.0, 500.0 ],
                         "openrectmode": 0,
                         "openinpresentation": 1,
@@ -5327,7 +5178,6 @@
                                         ]
                                     },
                                     "patching_rect": [ 350.0, 810.0, 249.0, 22.0 ],
-                                    "presentation_linecount": 2,
                                     "text": "p export_polybuffer_to_folder time_aligned_2"
                                 }
                             },
@@ -6499,7 +6349,6 @@
                                         ]
                                     },
                                     "patching_rect": [ 350.0, 1015.0, 236.0, 22.0 ],
-                                    "presentation_linecount": 2,
                                     "text": "p export_polybuffer_to_folder gain_aligned"
                                 }
                             },
@@ -7634,7 +7483,6 @@
                                         ]
                                     },
                                     "patching_rect": [ 345.0000035762787, 615.0000008940697, 220.0, 22.0 ],
-                                    "presentation_linecount": 2,
                                     "text": "p export_polybuffer_to_folder smoothed"
                                 }
                             },
@@ -8391,7 +8239,6 @@
                                         ]
                                     },
                                     "patching_rect": [ 345.0000035762787, 405.0000008940697, 249.0, 22.0 ],
-                                    "presentation_linecount": 2,
                                     "text": "p export_polybuffer_to_folder time_aligned_1"
                                 }
                             },
@@ -8770,7 +8617,6 @@
                                         ]
                                     },
                                     "patching_rect": [ 345.0000035762787, 300.0000008940697, 211.0, 22.0 ],
-                                    "presentation_linecount": 2,
                                     "text": "p export_polybuffer_to_folder cropped"
                                 }
                             },
@@ -9149,7 +8995,6 @@
                                         ]
                                     },
                                     "patching_rect": [ 345.0000035762787, 195.00000089406967, 276.0, 22.0 ],
-                                    "presentation_linecount": 2,
                                     "text": "p export_polybuffer_to_folder ir_w_mic_calibration"
                                 }
                             },
@@ -11963,7 +11808,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1587.0, 1660.0, 213.0, 62.0 ],
+                    "patching_rect": [ 1587.0, 1660.0, 215.0, 62.0 ],
                     "text": "store \"speaker ID\" \"detected peaks (dB)\" \"detected RMS (dB)\" \"gain comp. (dB)\" \"delay comp. (ms)\" \"delay comp. (samps)\""
                 }
             },
@@ -12338,7 +12183,6 @@
                         ]
                     },
                     "patching_rect": [ 2005.0, 275.0, 173.0, 22.0 ],
-                    "presentation_linecount": 3,
                     "text": "p setup_soundcheck_channels"
                 }
             },
@@ -12762,7 +12606,6 @@
                         ]
                     },
                     "patching_rect": [ 2825.0, 1445.0, 156.0, 22.0 ],
-                    "presentation_linecount": 3,
                     "text": "p setup_measure_channels"
                 }
             },
@@ -12882,8 +12725,7 @@
                     "patching_rect": [ 2440.5, 83.0, 130.0, 40.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 20.0, 400.0, 140.0, 40.0 ],
-                    "text": "Measure",
-                    "textjustification": 0
+                    "text": "Measure"
                 }
             },
             {
@@ -13693,7 +13535,7 @@
                                         "parameter_mappable": 0
                                     },
                                     "text": "pattr @invisible 1 @bindto parent::sweep_current_channel",
-                                    "varname": "sweep_ir_current_channel"
+                                    "varname": "u214012940"
                                 }
                             },
                             {
@@ -14206,8 +14048,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 50.0, 669.0, 50.0, 22.0 ],
-                                    "text": "13544"
+                                    "patching_rect": [ 50.0, 669.0, 50.0, 22.0 ]
                                 }
                             },
                             {
@@ -14640,7 +14481,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 240.0, 4880.0, 260.0, 33.0 ],
-                    "presentation_linecount": 2,
                     "text": "apply front-padding according to the originally measured delays"
                 }
             },
@@ -14654,8 +14494,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 240.0, 4840.0, 260.0, 40.0 ],
-                    "text": "Align time (apply)",
-                    "textjustification": 0
+                    "text": "Align time (apply)"
                 }
             },
             {
@@ -15495,7 +15334,6 @@
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 92.5, 669.0, 155.0, 20.0 ],
-                                    "presentation_linecount": 2,
                                     "text": "gain scale for each channel"
                                 }
                             },
@@ -15506,7 +15344,6 @@
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 104.5, 512.0, 150.0, 20.0 ],
-                                    "presentation_linecount": 3,
                                     "text": "simulated RMSes (ir + inv)"
                                 }
                             },
@@ -16639,7 +16476,6 @@
                         ]
                     },
                     "patching_rect": [ 55.0, 5274.0, 73.0, 22.0 ],
-                    "presentation_linecount": 3,
                     "text": "p gain_align"
                 }
             },
@@ -16876,8 +16712,7 @@
                     "patching_rect": [ 1763.0, 119.0, 187.0, 40.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 21.0, 101.0, 200.0, 40.0 ],
-                    "text": "Soundcheck",
-                    "textjustification": 0
+                    "text": "Soundcheck"
                 }
             },
             {
@@ -18108,7 +17943,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 271.3333414196968, 484.00001442432404, 468.0, 22.0 ],
-                    "text": "audition_toggle_conv 0"
+                    "text": "measure_toggle_conv 1"
                 }
             },
             {
@@ -18990,8 +18825,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 40.0, 960.0, 280.0, 40.0 ],
-                    "text": "Group norm & trim",
-                    "textjustification": 0
+                    "text": "Group norm & trim"
                 }
             },
             {
@@ -19505,8 +19339,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 120.0, 2420.0, 320.0, 40.0 ],
-                    "text": "Apply mic calibration",
-                    "textjustification": 0
+                    "text": "Apply mic calibration"
                 }
             },
             {
@@ -21315,7 +21148,7 @@
                         "measure_input_channel": [ 1 ],
                         "measure_input_channel[1]": [ 1 ],
                         "measure_mic_gain": [ 0.0 ],
-                        "measure_toggle_conv": [ 0 ],
+                        "measure_toggle_conv": [ 1 ],
                         "smoothing_factor": [ 0.02 ],
                         "soundcheck_level": [ -36.0 ],
                         "sweep_countdown_s": [ 10 ],
@@ -28894,8 +28727,7 @@
                     "patching_rect": [ 144.0, 5695.0, 140.0, 40.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 20.0, 740.0, 140.0, 40.0 ],
-                    "text": "Audition",
-                    "textjustification": 0
+                    "text": "Audition"
                 }
             },
             {
@@ -28908,8 +28740,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 60.0, 1960.0, 320.0, 40.0 ],
-                    "text": "Align time (measure)",
-                    "textjustification": 0
+                    "text": "Align time (measure)"
                 }
             },
             {
