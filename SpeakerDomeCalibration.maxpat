@@ -4753,7 +4753,7 @@
                                     "presentation": 1,
                                     "presentation_rect": [ 20.0, 20.0, 740.0, 460.0 ],
                                     "rowhead": 1,
-                                    "rows": 25
+                                    "rows": 1
                                 }
                             }
                         ],
@@ -11824,16 +11824,6 @@
             },
             {
                 "box": {
-                    "id": "obj-861",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 99.16667145490646, 719.0, 124.0, 22.0 ],
-                    "text": "print generate_sweep"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-858",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -17243,7 +17233,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 75.0, 749.0, 91.0, 22.0 ],
+                    "patching_rect": [ 75.0, 721.0, 91.0, 22.0 ],
                     "text": "p generate_ess"
                 }
             },
@@ -17925,7 +17915,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 271.3333414196968, 484.00001442432404, 468.0, 22.0 ],
-                    "text": "measure_toggle_conv 0"
+                    "text": "measure_toggle_conv 1"
                 }
             },
             {
@@ -19017,7 +19007,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 75.0, 780.0, 24.0, 24.0 ],
+                    "patching_rect": [ 75.0, 752.0, 24.0, 24.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 700.0, 340.0, 20.0, 20.0 ]
                 }
@@ -21130,7 +21120,7 @@
                         "measure_input_channel": [ 1 ],
                         "measure_input_channel[1]": [ 1 ],
                         "measure_mic_gain": [ 0.0 ],
-                        "measure_toggle_conv": [ 0 ],
+                        "measure_toggle_conv": [ 1 ],
                         "smoothing_factor": [ 0.02 ],
                         "soundcheck_level": [ -36.0 ],
                         "sweep_countdown_s": [ 10 ],
@@ -33293,14 +33283,6 @@
             {
                 "patchline": {
                     "destination": [ "obj-110", 0 ],
-                    "order": 1,
-                    "source": [ "obj-425", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-861", 0 ],
-                    "order": 0,
                     "source": [ "obj-425", 0 ]
                 }
             },
