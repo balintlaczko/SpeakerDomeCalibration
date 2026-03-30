@@ -2908,7 +2908,7 @@
                                     "numinlets": 4,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 220.0, 708.0, 660.0, 176.0 ],
+                                    "patching_rect": [ 213.0, 709.0, 660.0, 176.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 720.0, 360.0, 660.0, 180.0 ],
                                     "textcolor": [ 0.25, 0.25, 0.25, 1.0 ],
@@ -3585,150 +3585,6 @@
                                     "patching_rect": [ 483.0, 25.0, 302.5, 22.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 1080.0, 300.0, 303.0, 22.0 ]
-                                }
-                            },
-                            {
-                                "box": {
-                                    "ampgrid": 5,
-                                    "amprange": [ -30.0, 15.0 ],
-                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.0 ],
-                                    "color": [ 1.0, 0.0, 0.0, 1.0 ],
-                                    "color2": [ 0.0, 1.0, 0.0, 1.0 ],
-                                    "color3": [ 0.0, 0.0, 1.0, 1.0 ],
-                                    "fontface": 0,
-                                    "fontname": "Arial",
-                                    "fontsize": 12.0,
-                                    "freqrange": [ 30.0, 24000.0 ],
-                                    "id": "obj-6",
-                                    "maxclass": "spectrumdraw~",
-                                    "numinlets": 4,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 220.0, 708.0, 660.0, 176.0 ],
-                                    "presentation": 1,
-                                    "presentation_rect": [ 720.0, 360.0, 660.0, 180.0 ],
-                                    "textcolor": [ 0.25, 0.25, 0.25, 1.0 ],
-                                    "varname": "gen_spectrumdraw_0"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "ampgrid": 5,
-                                    "amprange": [ -30.0, 15.0 ],
-                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.0 ],
-                                    "color": [ 1.0, 0.0, 0.0, 1.0 ],
-                                    "color2": [ 0.0, 1.0, 0.0, 1.0 ],
-                                    "color3": [ 0.0, 0.0, 1.0, 1.0 ],
-                                    "fontface": 0,
-                                    "fontname": "Arial",
-                                    "fontsize": 12.0,
-                                    "freqrange": [ 30.0, 24000.0 ],
-                                    "id": "obj-9",
-                                    "maxclass": "spectrumdraw~",
-                                    "numinlets": 4,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 220.0, 708.0, 660.0, 176.0 ],
-                                    "presentation": 1,
-                                    "presentation_rect": [ 720.0, 360.0, 660.0, 180.0 ],
-                                    "textcolor": [ 0.25, 0.25, 0.25, 1.0 ],
-                                    "varname": "gen_spectrumdraw_1"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "ampgrid": 5,
-                                    "amprange": [ -30.0, 15.0 ],
-                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.0 ],
-                                    "color": [ 1.0, 0.0, 0.0, 1.0 ],
-                                    "color2": [ 0.0, 1.0, 0.0, 1.0 ],
-                                    "color3": [ 0.0, 0.0, 1.0, 1.0 ],
-                                    "fontface": 0,
-                                    "fontname": "Arial",
-                                    "fontsize": 12.0,
-                                    "freqrange": [ 30.0, 24000.0 ],
-                                    "id": "obj-11",
-                                    "maxclass": "spectrumdraw~",
-                                    "numinlets": 4,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 220.0, 708.0, 660.0, 176.0 ],
-                                    "presentation": 1,
-                                    "presentation_rect": [ 720.0, 360.0, 660.0, 180.0 ],
-                                    "textcolor": [ 0.25, 0.25, 0.25, 1.0 ],
-                                    "varname": "gen_spectrumdraw_2"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "ampgrid": 5,
-                                    "amprange": [ -30.0, 15.0 ],
-                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.0 ],
-                                    "color": [ 1.0, 0.0, 0.0, 1.0 ],
-                                    "color2": [ 0.0, 1.0, 0.0, 1.0 ],
-                                    "color3": [ 0.0, 0.0, 1.0, 1.0 ],
-                                    "fontface": 0,
-                                    "fontname": "Arial",
-                                    "fontsize": 12.0,
-                                    "freqrange": [ 30.0, 24000.0 ],
-                                    "id": "obj-14",
-                                    "maxclass": "spectrumdraw~",
-                                    "numinlets": 4,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 220.0, 708.0, 660.0, 176.0 ],
-                                    "presentation": 1,
-                                    "presentation_rect": [ 720.0, 360.0, 660.0, 180.0 ],
-                                    "textcolor": [ 0.25, 0.25, 0.25, 1.0 ],
-                                    "varname": "gen_spectrumdraw_3"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "ampgrid": 5,
-                                    "amprange": [ -30.0, 15.0 ],
-                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.0 ],
-                                    "color": [ 1.0, 0.0, 0.0, 1.0 ],
-                                    "color2": [ 0.0, 1.0, 0.0, 1.0 ],
-                                    "color3": [ 0.0, 0.0, 1.0, 1.0 ],
-                                    "fontface": 0,
-                                    "fontname": "Arial",
-                                    "fontsize": 12.0,
-                                    "freqrange": [ 30.0, 24000.0 ],
-                                    "id": "obj-16",
-                                    "maxclass": "spectrumdraw~",
-                                    "numinlets": 4,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 220.0, 708.0, 660.0, 176.0 ],
-                                    "presentation": 1,
-                                    "presentation_rect": [ 720.0, 360.0, 660.0, 180.0 ],
-                                    "textcolor": [ 0.25, 0.25, 0.25, 1.0 ],
-                                    "varname": "gen_spectrumdraw_4"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "ampgrid": 5,
-                                    "amprange": [ -30.0, 15.0 ],
-                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.0 ],
-                                    "color": [ 1.0, 0.0, 0.0, 1.0 ],
-                                    "color2": [ 0.0, 1.0, 0.0, 1.0 ],
-                                    "color3": [ 0.0, 0.0, 1.0, 1.0 ],
-                                    "fontface": 0,
-                                    "fontname": "Arial",
-                                    "fontsize": 12.0,
-                                    "freqrange": [ 30.0, 24000.0 ],
-                                    "id": "obj-18",
-                                    "maxclass": "spectrumdraw~",
-                                    "numinlets": 4,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 220.0, 708.0, 660.0, 176.0 ],
-                                    "presentation": 1,
-                                    "presentation_rect": [ 720.0, 360.0, 660.0, 180.0 ],
-                                    "textcolor": [ 0.25, 0.25, 0.25, 1.0 ],
-                                    "varname": "gen_spectrumdraw_5"
                                 }
                             }
                         ],
@@ -4860,7 +4716,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 63.0, 176.0, 380.0, 500.0 ],
+                        "rect": [ 63.0, 175.0, 380.0, 500.0 ],
                         "openrect": [ 0.0, 0.0, 380.0, 500.0 ],
                         "openrectmode": 0,
                         "openinpresentation": 1,
@@ -31954,6 +31810,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-175", 0 ],
+                    "source": [ "obj-1226", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-326", 0 ],
                     "source": [ "obj-1227", 0 ]
                 }
@@ -32273,6 +32135,12 @@
                 "patchline": {
                     "destination": [ "obj-855", 1 ],
                     "source": [ "obj-173", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-187", 0 ],
+                    "source": [ "obj-175", 0 ]
                 }
             },
             {
