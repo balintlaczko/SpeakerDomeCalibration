@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 341.0, 77.0, 940.0, 980.0 ],
+        "rect": [ 402.0, 72.0, 940.0, 980.0 ],
         "openrect": [ 0.0, 0.0, 940.0, 980.0 ],
         "openrectmode": 0,
         "bglocked": 1,
@@ -96,7 +96,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "int" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 680.0, 2160.0, 160.0, 20.0 ],
+                    "patching_rect": [ 680.0, 2120.0, 160.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 760.0, 240.0, 80.0, 20.0 ],
                     "text": "Load Speakers",
@@ -110,7 +110,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
-                    "patching_rect": [ 680.0, 2200.0, 103.0, 22.0 ],
+                    "patching_rect": [ 680.0, 2160.0, 103.0, 22.0 ],
                     "text": "opendialog JSON"
                 }
             },
@@ -121,7 +121,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 680.0, 2240.0, 193.0, 22.0 ],
+                    "patching_rect": [ 680.0, 2200.0, 193.0, 22.0 ],
                     "text": "v calibration_speakers_json_iem 0"
                 }
             },
@@ -131,7 +131,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 140.0, 1860.0, 382.0, 20.0 ],
+                    "patching_rect": [ 280.0, 1860.0, 382.0, 20.0 ],
                     "text": "both mic calibration files, as well as the speaker json should be loaded"
                 }
             },
@@ -210,7 +210,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "int" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 480.0, 2160.0, 80.0, 20.0 ],
+                    "patching_rect": [ 480.0, 2120.0, 80.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 840.0, 220.0, 80.0, 20.0 ],
                     "text": "Load 90-deg",
@@ -224,7 +224,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
-                    "patching_rect": [ 480.0, 2200.0, 101.0, 22.0 ],
+                    "patching_rect": [ 480.0, 2160.0, 101.0, 22.0 ],
                     "text": "opendialog TEXT"
                 }
             },
@@ -235,7 +235,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 480.0, 2240.0, 175.0, 22.0 ],
+                    "patching_rect": [ 480.0, 2200.0, 175.0, 22.0 ],
                     "text": "v calibration_text_file_90-deg 0"
                 }
             },
@@ -1638,7 +1638,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 860.0, 2200.0, 22.0, 22.0 ],
+                    "patching_rect": [ 860.0, 2160.0, 22.0, 22.0 ],
                     "text": "t 0"
                 }
             },
@@ -1651,7 +1651,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "int" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 860.0, 2160.0, 80.0, 20.0 ],
+                    "patching_rect": [ 860.0, 2120.0, 80.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 840.0, 240.0, 80.0, 20.0 ],
                     "text": "Unload all",
@@ -1828,7 +1828,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 100.0, 2240.0, 20.0, 20.0 ],
+                    "patching_rect": [ 100.0, 2200.0, 20.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 900.0, 200.0, 20.0, 20.0 ]
                 }
@@ -3113,7 +3113,7 @@
                             {
                                 "box": {
                                     "ampgrid": 5,
-                                    "amprange": [ -30.0, 15.0 ],
+                                    "amprange": [ -37.5, 15.0 ],
                                     "bgcolor": [ 1.0, 1.0, 1.0, 0.0 ],
                                     "color": [ 1.0, 0.0, 0.0, 1.0 ],
                                     "color2": [ 0.0, 1.0, 0.0, 1.0 ],
@@ -3699,7 +3699,7 @@
                             {
                                 "box": {
                                     "ampgrid": 5,
-                                    "amprange": [ -30.0, 15.0 ],
+                                    "amprange": [ -37.5, 15.0 ],
                                     "color": [ 0.0, 0.0, 1.0, 1.0 ],
                                     "color2": [ 1.0, 0.0, 0.0, 1.0 ],
                                     "color3": [ 0.290196078431373, 0.72156862745098, 0.007843137254902, 1.0 ],
@@ -4196,7 +4196,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "int" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 100.0, 2160.0, 160.0, 20.0 ],
+                    "patching_rect": [ 100.0, 1840.0, 160.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 760.0, 200.0, 160.0, 20.0 ],
                     "text": "Apply mic calibration",
@@ -4212,7 +4212,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "int" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 280.0, 2160.0, 80.0, 20.0 ],
+                    "patching_rect": [ 280.0, 2120.0, 80.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 760.0, 220.0, 80.0, 20.0 ],
                     "text": "Load 0-deg",
@@ -17952,7 +17952,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 340.0, 540.0, 480.0, 22.0 ],
-                    "text": "read speakerdomecalibration.json 0"
+                    "text": "include_scale_factor_toggle 1"
                 }
             },
             {
@@ -19304,7 +19304,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
-                    "patching_rect": [ 280.0, 2200.0, 101.0, 22.0 ],
+                    "patching_rect": [ 280.0, 2160.0, 101.0, 22.0 ],
                     "text": "opendialog TEXT"
                 }
             },
@@ -19317,7 +19317,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 120.0, 1819.0, 320.0, 40.0 ],
+                    "patching_rect": [ 280.0, 1820.0, 320.0, 40.0 ],
                     "text": "Apply mic calibration"
                 }
             },
@@ -21552,7 +21552,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 100.0, 2200.0, 166.0, 22.0 ],
+                    "patching_rect": [ 100.0, 2160.0, 166.0, 22.0 ],
                     "text": "p apply_mic_calibration"
                 }
             },
@@ -21563,7 +21563,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 280.0, 2240.0, 168.0, 22.0 ],
+                    "patching_rect": [ 280.0, 2200.0, 168.0, 22.0 ],
                     "text": "v calibration_text_file_0-deg 0"
                 }
             },
@@ -33396,7 +33396,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-175", 0 ],
+                    "destination": [ "obj-1247", 0 ],
                     "source": [ "obj-1226", 0 ]
                 }
             },
@@ -33771,7 +33771,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-1227", 0 ],
-                    "midpoints": [ 109.5, 2268.6848946020473, 69.5, 2268.6848946020473 ],
+                    "midpoints": [ 109.5, 2237.3958321020473, 69.5, 2237.3958321020473 ],
                     "source": [ "obj-187", 0 ]
                 }
             },
@@ -35254,8 +35254,8 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-1247", 0 ],
-                    "midpoints": [ 69.5, 1869.8351295061875, 109.5, 1869.8351295061875 ],
+                    "destination": [ "obj-1226", 0 ],
+                    "midpoints": [ 69.5, 1825.8046875, 109.5, 1825.8046875 ],
                     "source": [ "obj-782", 0 ]
                 }
             },
@@ -35267,14 +35267,14 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-1226", 0 ],
-                    "source": [ "obj-785", 1 ]
+                    "destination": [ "obj-1227", 0 ],
+                    "source": [ "obj-785", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-1227", 0 ],
-                    "source": [ "obj-785", 0 ]
+                    "destination": [ "obj-175", 0 ],
+                    "source": [ "obj-785", 1 ]
                 }
             },
             {
