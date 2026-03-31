@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 341.0, 77.0, 953.0, 1001.0 ],
+        "rect": [ 341.0, 77.0, 940.0, 980.0 ],
         "openrect": [ 0.0, 0.0, 940.0, 980.0 ],
         "openrectmode": 0,
         "bglocked": 1,
@@ -1885,7 +1885,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 161.0, 257.0, 1400.0, 560.0 ],
+                        "rect": [ 161.0, 256.0, 1400.0, 560.0 ],
                         "openrect": [ 0.0, 0.0, 1400.0, 560.0 ],
                         "openrectmode": 0,
                         "openinpresentation": 1,
@@ -3359,35 +3359,13 @@
                                         "boxes": [
                                             {
                                                 "box": {
-                                                    "id": "obj-1248",
-                                                    "maxclass": "newobj",
-                                                    "numinlets": 1,
-                                                    "numoutlets": 1,
-                                                    "outlettype": [ "int" ],
-                                                    "patching_rect": [ 625.0, 187.0, 22.0, 22.0 ],
-                                                    "text": "t 2"
-                                                }
-                                            },
-                                            {
-                                                "box": {
-                                                    "id": "obj-1246",
-                                                    "maxclass": "newobj",
-                                                    "numinlets": 1,
-                                                    "numoutlets": 1,
-                                                    "outlettype": [ "int" ],
-                                                    "patching_rect": [ 585.0, 187.0, 22.0, 22.0 ],
-                                                    "text": "t 1"
-                                                }
-                                            },
-                                            {
-                                                "box": {
                                                     "id": "obj-1245",
                                                     "maxclass": "newobj",
                                                     "numinlets": 2,
-                                                    "numoutlets": 2,
-                                                    "outlettype": [ "bang", "" ],
-                                                    "patching_rect": [ 585.0, 146.0, 34.0, 22.0 ],
-                                                    "text": "sel 0"
+                                                    "numoutlets": 1,
+                                                    "outlettype": [ "int" ],
+                                                    "patching_rect": [ 585.0, 146.0, 29.5, 22.0 ],
+                                                    "text": "+ 1"
                                                 }
                                             },
                                             {
@@ -3397,8 +3375,8 @@
                                                     "numinlets": 1,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
-                                                    "patching_rect": [ 585.0, 106.0, 121.0, 22.0 ],
-                                                    "text": "v calibration_text_file"
+                                                    "patching_rect": [ 585.0, 106.0, 123.0, 22.0 ],
+                                                    "text": "v calibration_possible"
                                                 }
                                             },
                                             {
@@ -3408,7 +3386,7 @@
                                                     "maxclass": "comment",
                                                     "numinlets": 1,
                                                     "numoutlets": 0,
-                                                    "patching_rect": [ 422.0, 349.0, 210.0, 60.0 ],
+                                                    "patching_rect": [ 498.0, 200.0, 210.0, 60.0 ],
                                                     "text": "if there is a mic calibration loaded, calculate with the \"ir_w_mic_calibration\" buffer, otherwise with the \"ir\" buffer"
                                                 }
                                             },
@@ -3591,26 +3569,8 @@
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-1246", 0 ],
+                                                    "destination": [ "obj-18", 0 ],
                                                     "source": [ "obj-1245", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-1248", 0 ],
-                                                    "source": [ "obj-1245", 1 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-18", 0 ],
-                                                    "source": [ "obj-1246", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-18", 0 ],
-                                                    "source": [ "obj-1248", 0 ]
                                                 }
                                             },
                                             {
@@ -20705,7 +20665,6 @@
                                                         ]
                                                     },
                                                     "patching_rect": [ 518.0, 186.0, 77.0, 22.0 ],
-                                                    "presentation_linecount": 2,
                                                     "text": "p parse_json"
                                                 }
                                             },
